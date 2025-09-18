@@ -12,6 +12,6 @@ source ~/.local/share/omarchy/default/bash/rc
 #
 # Set a custom prompt with the directory revealed (alternatively use https://starship.rs)
 # PS1="\W \[\e]0;\w\a\]$PS1"
-alias compsfml="g++ -std=c++20 -ggdb -Wall -Weffc++ -Wextra -Wsign-conversion -Werror -lsfml-graphics -lsfml-window -lsfml-system"
 export PATH="$HOME/.local/bin":"$HOME/bin":"$HOME/.cargo/bin":$PATH
 alias config='/usr/bin/git --git-dir=/home/kmccuddy/.omarchy_dots/ --work-tree=/home/kmccuddy'
+alias compsfml="g++ -std=c++20 -ggdb -Wall -Weffc++ -Wextra -Wsign-conversion -Werror -lsfml-graphics -lsfml-window -lsfml-system"
